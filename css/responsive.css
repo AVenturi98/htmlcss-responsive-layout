@@ -36,6 +36,14 @@
         display: none;
     }
 
+    /* FOOTER */
+
+    .row-foot{
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+
 }
 
 /* RESPONSIVE 768px */
@@ -88,5 +96,13 @@
 
     .img-blog {
         width: 100%;
+    }
+
+    /* FOOTER */
+
+    .visit-more {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
     }
 }

@@ -35,7 +35,7 @@ img {
 
 /* HERO */
 
-main {
+main, footer {
     background-color: var(--lightgray);
     font-family: "Montserrat", sans-serif;
 }
@@ -122,4 +122,25 @@ main {
 hr {
     border-bottom: 2px solid var(--orange);
     width: 15%;
+}
+
+/* FOOTER  */
+
+.row-foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7C69A4;
+    color: white;
+    line-height: 1.5em;
+}
+
+.row-foot > * {
+    padding: 12px;
+}
+
+.visit-more {
+    display: flex;
+    gap: 20px;
+    text-decoration: underline;
 }
