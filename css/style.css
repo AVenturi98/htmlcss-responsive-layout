@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+/* NAVBAR */
+
+.navbar {
+    font-family: "Nerko One", cursive;
+    font-size: 30px;
+    color: #FA9518;
+    padding: 12px;
+}
+
+
+
