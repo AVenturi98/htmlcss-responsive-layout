@@ -80,6 +80,10 @@ main {
 
 /* BUTTON */
 
+.btn-sct {
+    padding: 0;
+}
+
 .col-6 {
     width: 19%
 }
@@ -102,3 +106,6 @@ main {
     padding: 0 3px;
 }
 
+.ads {
+    padding: 0;
+}
