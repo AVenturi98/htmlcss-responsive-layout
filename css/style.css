@@ -1,3 +1,9 @@
+:root {
+    --orange: #FA9518;
+    --lightgray: #F6F5F3;
+    --violet: #5B4874;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -21,10 +27,54 @@ img {
 
 .navbar {
     font-family: "Nerko One", cursive;
-    font-size: 30px;
-    color: #FA9518;
+    font-size: 2rem;
+    color: var(--orange);
     padding: 12px;
 }
 
+/* HERO */
+
+.hero {
+    background-color: var(--lightgray);
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    margin: auto 280px;
+    padding: 60px 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.col-8 {
+    width: calc(8 * 100% / 12);
+}
+
+.col-4 {
+    width: calc(4 * 100% / 12);
+    background-color: #ffffff;
+}
+
+.open-hero {
+    color: grey;
+}
+
+.title-hero {
+    font-size: 2.5rem;
+    padding: 12px 0;
+    color: var(--violet);
+}
+
+.ricept {
+    padding: 40px;
+    line-height: 2em;;
+}
 
 
