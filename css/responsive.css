@@ -11,6 +11,10 @@
         width: 100%;
     }
     
+    .media-video {
+        aspect-ratio: 1/1;
+    }
+    
     .info-rec {
         display: flex;
         flex-wrap: wrap;

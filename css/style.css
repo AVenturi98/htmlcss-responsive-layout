@@ -30,6 +30,7 @@ img, .col-12 {
     font-family: "Nerko One", cursive;
     font-size: 2rem;
     color: var(--orange);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
 }
 
 .row-foot > *, .navbar, .row-foot {
@@ -54,11 +55,11 @@ main, footer {
 }
 
 .col-8 {
-    width: calc(9 * 100% / 12);
+    width: calc(7 * 100% / 12);
 }
 
 .col-4 {
-    width: calc(3 * 100% / 12);
+    width: calc(5 * 100% / 12);
     background-color: var(--white);
 }
 
@@ -73,7 +74,9 @@ main, footer {
 }
 
 .ricept {
+    display: block;
     padding: 40px;
+    font-size: 20px;
     line-height: 2em;
 }
 
@@ -99,6 +102,11 @@ main, footer {
     padding: 10px;
     text-align: center;
     border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.cta:hover {
+    font-size: 110%;
 }
 
 /* BLOG */
@@ -133,4 +141,9 @@ hr {
     display: flex;
     gap: 20px;
     text-decoration: underline;
+}
+
+.more:hover {
+    text-decoration: none;
+    color: black;
 }
